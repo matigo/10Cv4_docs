@@ -1,6 +1,6 @@
 # 10Centuries v4 Documentation
 
-This is a public repository containing the API and Web Interface documentation for Version 4 of the [10Centuries publishing platform](https://10centuries.org). Everyone is free to contribute, fork, distribute, and comment on these documents as they choose.
+This is a public repository containing the API and Web Interface documentation for Version 4 of the [10Centuries publishing platform](https://10centuries.org). The upcoming Version 5 docs will be in a different repository. Everyone is free to contribute, fork, distribute, and comment on these documents as they choose.
 
 ### Notes
 
