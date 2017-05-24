@@ -73,20 +73,20 @@ The File object contains the basic elements of data referring to a file stored o
 
 ```
 {
-	"file": [	"id": 123,
-				"name": "Nozomi on the Grass.jpg",
-				"size": 12345678,
-				"mime": "image/jpeg",
-				"is_deleted": false],
-	"in_post": true,
-	"in_meta": true,
-	"is_avatar": false,
-	"has_metadata": true,
-	"cdn_url": "https://cdn.10centuries.org/...",
-	"uploaded_at": "2017-01-01T00:00:00Z"
-	"uploaded_unix": 1483196400,
-	"updated_at": "2017-01-01T00:00:00Z",
-	"updated_unix": 1483196400
+    "file": [ "id": 123,
+                "name": "Nozomi on the Grass.jpg",
+                "size": 12345678,
+                "mime": "image/jpeg",
+                "is_deleted": false],
+    "in_post": true,
+    "in_meta": true,
+    "is_avatar": false,
+    "has_metadata": true,
+    "cdn_url": "https://cdn.10centuries.org/...",
+    "uploaded_at": "2017-01-01T00:00:00Z"
+    "uploaded_unix": 1483196400,
+    "updated_at": "2017-01-01T00:00:00Z",
+    "updated_unix": 1483196400
 }
 ```
 
@@ -98,10 +98,10 @@ The Bucket object contains four pieces of data and is returned with every upload
 
 ```
 {
-	"type": "Premium",
-	"files": 1701,
-	"limit": 5368709120,
-	"used": 1234567890
+    "type": "Premium",
+    "files": 1701,
+    "limit": 5368709120,
+    "used": 1234567890
 }
 ```
 
@@ -111,10 +111,10 @@ Should an error occur, an array of objects will be returned detailing what the p
 
 ```
 {
-	"name": "filename.abc",
-	"size": 74656,
-	"type": "application/abc",
-	"reason": "Unsupported File Type"
+    "name": "filename.abc",
+    "size": 74656,
+    "type": "application/abc",
+    "reason": "Unsupported File Type"
 }
 ```
 
@@ -153,22 +153,22 @@ If the request was successful, the API will respond with a JSON package:
         "code": 200
     },
     "data": {
-    			  [{
-					"file": [	"id": 123,
-								"name": "Nozomi on the Grass.jpg",
-								"size": 12345678,
-								"mime": "image/jpeg",
-								"is_deleted": false],
-					"in_post": true,
-					"in_meta": true,
-					"is_avatar": false,
-					"has_metadata": true,
-					"cdn_url": "https://cdn.10centuries.org/...",
-					"uploaded_at": "2017-01-01T00:00:00Z"
-					"uploaded_unix": 1483196400,
-					"updated_at": "2017-01-01T00:00:00Z",
-					"updated_unix": 1483196400
-				}]
+                   [{
+                        "file": [	"id": 123,
+                        "name": "Nozomi on the Grass.jpg",
+                        "size": 12345678,
+                        "mime": "image/jpeg",
+                        "is_deleted": false],
+                    "in_post": true,
+                    "in_meta": true,
+                    "is_avatar": false,
+                    "has_metadata": true,
+                    "cdn_url": "https://cdn.10centuries.org/...",
+                    "uploaded_at": "2017-01-01T00:00:00Z"
+                    "uploaded_unix": 1483196400,
+                    "updated_at": "2017-01-01T00:00:00Z",
+                    "updated_unix": 1483196400
+                  }]
     }
 }
 ```
@@ -212,23 +212,20 @@ If the request was successful, the API will respond with a JSON package:
     "meta": {
         "code": 200
     },
-    "data": {
-    			  [{
-					"file": [	"id": 123,
-								"name": false,
-								"size": false,
-								"mime": false,
-								"is_deleted": true],
-					"in_post": false,
-					"in_meta": false,
-					"is_avatar": false,
-					"has_metadata": false,
-					"cdn_url": false,
-					"uploaded_at": "2017-01-01T00:00:00Z"
-					"uploaded_unix": 1483196400,
-					"updated_at": "2017-01-01T00:00:00Z",
-					"updated_unix": 1483196400
-				}]
+    "data": { "file": [ "id": 123,
+                                 "name": false,
+                                 "size": false,
+                                 "mime": false,
+                                 "is_deleted": true],
+                   "in_post": false,
+                   "in_meta": false,
+                   "is_avatar": false,
+                   "has_metadata": false,
+                   "cdn_url": false,
+                   "uploaded_at": "2017-01-01T00:00:00Z"
+                   "uploaded_unix": 1483196400,
+                   "updated_at": "2017-01-01T00:00:00Z",
+                   "updated_unix": 1483196400
     }
 }
 ```
