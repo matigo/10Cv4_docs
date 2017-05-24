@@ -185,7 +185,7 @@ If there was some problem, the API will respond with an error:
 }
 ```
 
-### Deleting a File
+### Deleting a File
 
 Deleting a file is pretty much exactly the same as requesting individual file details, but with a `DELETE` request. Of course, only the owner of a file may delete it.
 
@@ -213,19 +213,19 @@ If the request was successful, the API will respond with a JSON package:
         "code": 200
     },
     "data": { "file": [ "id": 123,
-                                 "name": false,
-                                 "size": false,
-                                 "mime": false,
-                                 "is_deleted": true],
-                   "in_post": false,
-                   "in_meta": false,
-                   "is_avatar": false,
-                   "has_metadata": false,
-                   "cdn_url": false,
-                   "uploaded_at": "2017-01-01T00:00:00Z"
-                   "uploaded_unix": 1483196400,
-                   "updated_at": "2017-01-01T00:00:00Z",
-                   "updated_unix": 1483196400
+                        "name": false,
+                        "size": false,
+                        "mime": false,
+                        "is_deleted": true],
+              "in_post": false,
+              "in_meta": false,
+              "is_avatar": false,
+              "has_metadata": false,
+              "cdn_url": false,
+              "uploaded_at": "2017-01-01T00:00:00Z"
+              "uploaded_unix": 1483196400,
+              "updated_at": "2017-01-01T00:00:00Z",
+              "updated_unix": 1483196400
     }
 }
 ```
