@@ -153,22 +153,22 @@ If the request was successful, the API will respond with a JSON package:
         "code": 200
     },
     "data": {
-                   [{
-                        "file": [	"id": 123,
+              [{
+                  "file": [ "id": 123,
                         "name": "Nozomi on the Grass.jpg",
                         "size": 12345678,
                         "mime": "image/jpeg",
                         "is_deleted": false],
-                    "in_post": true,
-                    "in_meta": true,
-                    "is_avatar": false,
-                    "has_metadata": true,
-                    "cdn_url": "https://cdn.10centuries.org/...",
-                    "uploaded_at": "2017-01-01T00:00:00Z"
-                    "uploaded_unix": 1483196400,
-                    "updated_at": "2017-01-01T00:00:00Z",
-                    "updated_unix": 1483196400
-                  }]
+               "in_post": true,
+               "in_meta": true,
+               "is_avatar": false,
+               "has_metadata": true,
+               "cdn_url": "https://cdn.10centuries.org/...",
+               "uploaded_at": "2017-01-01T00:00:00Z"
+               "uploaded_unix": 1483196400,
+               "updated_at": "2017-01-01T00:00:00Z",
+               "updated_unix": 1483196400
+           }]
     }
 }
 ```
