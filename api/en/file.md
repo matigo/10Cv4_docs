@@ -59,9 +59,9 @@ Upon successful completion, an object containing an array of files, bucket infor
 
 ```
 {
-	"files": [...],
-	"bucket": [...],
-	"errors": [...]
+    "files": [...],
+    "bucket": [...],
+    "errors": [...]
 }
 ```
 
@@ -74,10 +74,10 @@ The File object contains the basic elements of data referring to a file stored o
 ```
 {
     "file": [ "id": 123,
-                "name": "Nozomi on the Grass.jpg",
-                "size": 12345678,
-                "mime": "image/jpeg",
-                "is_deleted": false],
+               "name": "Nozomi on the Grass.jpg",
+               "size": 12345678,
+               "mime": "image/jpeg",
+               "is_deleted": false],
     "in_post": true,
     "in_meta": true,
     "is_avatar": false,
@@ -155,10 +155,10 @@ If the request was successful, the API will respond with a JSON package:
     "data": {
               [{
                  "file": [ "id": 123,
-                             "name": "Nozomi on the Grass.jpg",
-                             "size": 12345678,
-                             "mime": "image/jpeg",
-                             "is_deleted": false],
+                           "name": "Nozomi on the Grass.jpg",
+                           "size": 12345678,
+                           "mime": "image/jpeg",
+                           "is_deleted": false],
                  "in_post": true,
                  "in_meta": true,
                  "is_avatar": false,
@@ -168,7 +168,7 @@ If the request was successful, the API will respond with a JSON package:
                  "uploaded_unix": 1483196400,
                  "updated_at": "2017-01-01T00:00:00Z",
                  "updated_unix": 1483196400
-             }]
+              }]
     }
 }
 ```
